@@ -10,6 +10,20 @@
 		943703A7221BA6B500E98D69 /* FIUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9437039D221BA6B500E98D69 /* FIUI.framework */; };
 		943703AC221BA6B500E98D69 /* FIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943703AB221BA6B500E98D69 /* FIUITests.swift */; };
 		943703AE221BA6B500E98D69 /* FIUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 943703A0221BA6B500E98D69 /* FIUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		943703B8221BA6D600E98D69 /* FIPagedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943703B7221BA6D600E98D69 /* FIPagedController.swift */; };
+		949FCBEC221C23D100EB1EA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949FCBEB221C23D100EB1EA6 /* AppDelegate.swift */; };
+		949FCBEE221C23D100EB1EA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949FCBED221C23D100EB1EA6 /* ViewController.swift */; };
+		949FCBF1221C23D100EB1EA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949FCBEF221C23D100EB1EA6 /* Main.storyboard */; };
+		949FCBF3221C23D100EB1EA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949FCBF2221C23D100EB1EA6 /* Assets.xcassets */; };
+		949FCBF6221C23D100EB1EA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 949FCBF4221C23D100EB1EA6 /* LaunchScreen.storyboard */; };
+		949FCBFF221C25B600EB1EA6 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949FCBFE221C25B600EB1EA6 /* SnapKit.framework */; };
+		949FCC00221C25C600EB1EA6 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949FCBFE221C25B600EB1EA6 /* SnapKit.framework */; };
+		949FCC01221C25C600EB1EA6 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 949FCBFE221C25B600EB1EA6 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		949FCC02221C265F00EB1EA6 /* FIUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9437039D221BA6B500E98D69 /* FIUI.framework */; };
+		949FCC03221C265F00EB1EA6 /* FIUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9437039D221BA6B500E98D69 /* FIUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		94AC56D7221CD56200B72484 /* FITabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC56D6221CD56200B72484 /* FITabBar.swift */; };
+		94AC56D9221CD5CE00B72484 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC56D8221CD5CE00B72484 /* UIColor+Extension.swift */; };
+		94AC56DD221CF72600B72484 /* FITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC56DC221CF72600B72484 /* FITabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +34,29 @@
 			remoteGlobalIDString = 9437039C221BA6B500E98D69;
 			remoteInfo = FIUI;
 		};
+		949FCC04221C265F00EB1EA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94370394221BA6B500E98D69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9437039C221BA6B500E98D69;
+			remoteInfo = FIUI;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		949FCBFD221C257D00EB1EA6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				949FCC01221C25C600EB1EA6 /* SnapKit.framework in Embed Frameworks */,
+				949FCC03221C265F00EB1EA6 /* FIUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9437039D221BA6B500E98D69 /* FIUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FIUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,6 +65,20 @@
 		943703A6221BA6B500E98D69 /* FIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943703AB221BA6B500E98D69 /* FIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIUITests.swift; sourceTree = "<group>"; };
 		943703AD221BA6B500E98D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943703B7221BA6D600E98D69 /* FIPagedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIPagedController.swift; sourceTree = "<group>"; };
+		949FCBE9221C23D000EB1EA6 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949FCBEB221C23D100EB1EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		949FCBED221C23D100EB1EA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		949FCBF0221C23D100EB1EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		949FCBF2221C23D100EB1EA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		949FCBF5221C23D100EB1EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		949FCBF7221C23D100EB1EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		949FCBFE221C25B600EB1EA6 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../../FGOWiki/Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		94AC56D6221CD56200B72484 /* FITabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FITabBar.swift; sourceTree = "<group>"; };
+		94AC56D8221CD5CE00B72484 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		94AC56DA221CF1AF00B72484 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		94AC56DB221CF26A00B72484 /* README_CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README_CN.md; sourceTree = "<group>"; };
+		94AC56DC221CF72600B72484 /* FITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FITabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				949FCBFF221C25B600EB1EA6 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,15 +98,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		949FCBE6221C23D000EB1EA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949FCC00221C25C600EB1EA6 /* SnapKit.framework in Frameworks */,
+				949FCC02221C265F00EB1EA6 /* FIUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		94370393221BA6B500E98D69 = {
 			isa = PBXGroup;
 			children = (
-				9437039F221BA6B500E98D69 /* FIUI */,
-				943703AA221BA6B500E98D69 /* FIUITests */,
+				94AC56DB221CF26A00B72484 /* README_CN.md */,
+				94AC56DA221CF1AF00B72484 /* README.md */,
+				9437039F221BA6B500E98D69 /* Sources */,
+				943703AA221BA6B500E98D69 /* Tests */,
+				949FCBEA221C23D100EB1EA6 /* Demo */,
 				9437039E221BA6B500E98D69 /* Products */,
+				943703BA221BA78200E98D69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,26 +128,60 @@
 			children = (
 				9437039D221BA6B500E98D69 /* FIUI.framework */,
 				943703A6221BA6B500E98D69 /* FIUITests.xctest */,
+				949FCBE9221C23D000EB1EA6 /* Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9437039F221BA6B500E98D69 /* FIUI */ = {
+		9437039F221BA6B500E98D69 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				943703B9221BA6E700E98D69 /* Extensions */,
 				943703A0221BA6B500E98D69 /* FIUI.h */,
 				943703A1221BA6B500E98D69 /* Info.plist */,
+				943703B7221BA6D600E98D69 /* FIPagedController.swift */,
+				94AC56D6221CD56200B72484 /* FITabBar.swift */,
+				94AC56DC221CF72600B72484 /* FITabBarController.swift */,
 			);
-			path = FIUI;
+			path = Sources;
 			sourceTree = "<group>";
 		};
-		943703AA221BA6B500E98D69 /* FIUITests */ = {
+		943703AA221BA6B500E98D69 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				943703AB221BA6B500E98D69 /* FIUITests.swift */,
 				943703AD221BA6B500E98D69 /* Info.plist */,
 			);
-			path = FIUITests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		943703B9221BA6E700E98D69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94AC56D8221CD5CE00B72484 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		943703BA221BA78200E98D69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				949FCBFE221C25B600EB1EA6 /* SnapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		949FCBEA221C23D100EB1EA6 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				949FCBEB221C23D100EB1EA6 /* AppDelegate.swift */,
+				949FCBED221C23D100EB1EA6 /* ViewController.swift */,
+				949FCBEF221C23D100EB1EA6 /* Main.storyboard */,
+				949FCBF2221C23D100EB1EA6 /* Assets.xcassets */,
+				949FCBF4221C23D100EB1EA6 /* LaunchScreen.storyboard */,
+				949FCBF7221C23D100EB1EA6 /* Info.plist */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +234,25 @@
 			productReference = 943703A6221BA6B500E98D69 /* FIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		949FCBE8221C23D000EB1EA6 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949FCBFA221C23D100EB1EA6 /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				949FCBE5221C23D000EB1EA6 /* Sources */,
+				949FCBE6221C23D000EB1EA6 /* Frameworks */,
+				949FCBE7221C23D000EB1EA6 /* Resources */,
+				949FCBFD221C257D00EB1EA6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				949FCC05221C265F00EB1EA6 /* PBXTargetDependency */,
+			);
+			name = Demo;
+			productName = Demo;
+			productReference = 949FCBE9221C23D000EB1EA6 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -148,8 +265,12 @@
 				TargetAttributes = {
 					9437039C221BA6B500E98D69 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					943703A5221BA6B500E98D69 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					949FCBE8221C23D000EB1EA6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -160,6 +281,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 94370393221BA6B500E98D69;
 			productRefGroup = 9437039E221BA6B500E98D69 /* Products */;
@@ -168,6 +290,7 @@
 			targets = (
 				9437039C221BA6B500E98D69 /* FIUI */,
 				943703A5221BA6B500E98D69 /* FIUITests */,
+				949FCBE8221C23D000EB1EA6 /* Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +310,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		949FCBE7221C23D000EB1EA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949FCBF6221C23D100EB1EA6 /* LaunchScreen.storyboard in Resources */,
+				949FCBF3221C23D100EB1EA6 /* Assets.xcassets in Resources */,
+				949FCBF1221C23D100EB1EA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -194,6 +327,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94AC56D9221CD5CE00B72484 /* UIColor+Extension.swift in Sources */,
+				94AC56D7221CD56200B72484 /* FITabBar.swift in Sources */,
+				94AC56DD221CF72600B72484 /* FITabBarController.swift in Sources */,
+				943703B8221BA6D600E98D69 /* FIPagedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +342,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		949FCBE5221C23D000EB1EA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949FCBEE221C23D100EB1EA6 /* ViewController.swift in Sources */,
+				949FCBEC221C23D100EB1EA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -213,7 +359,31 @@
 			target = 9437039C221BA6B500E98D69 /* FIUI */;
 			targetProxy = 943703A8221BA6B500E98D69 /* PBXContainerItemProxy */;
 		};
+		949FCC05221C265F00EB1EA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9437039C221BA6B500E98D69 /* FIUI */;
+			targetProxy = 949FCC04221C265F00EB1EA6 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		949FCBEF221C23D100EB1EA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949FCBF0221C23D100EB1EA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		949FCBF4221C23D100EB1EA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				949FCBF5221C23D100EB1EA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		943703AF221BA6B500E98D69 /* Debug */ = {
@@ -341,6 +511,7 @@
 		943703B2221BA6B500E98D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,7 +519,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FIUI/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -358,6 +530,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ujs.byunfi.FIUI;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +539,7 @@
 		943703B3221BA6B500E98D69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,7 +547,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = FIUI/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -391,6 +566,7 @@
 		943703B5221BA6B500E98D69 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = FIUITests/Info.plist;
@@ -409,6 +585,7 @@
 		943703B6221BA6B500E98D69 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z734C7U23P;
 				INFOPLIST_FILE = FIUITests/Info.plist;
@@ -418,6 +595,46 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ujs.byunfi.FIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		949FCBF8221C23D100EB1EA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z734C7U23P;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/";
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ujs.byunfi.Demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		949FCBF9221C23D100EB1EA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z734C7U23P;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/";
+				INFOPLIST_FILE = Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ujs.byunfi.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -450,6 +667,15 @@
 			buildConfigurations = (
 				943703B5221BA6B500E98D69 /* Debug */,
 				943703B6221BA6B500E98D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949FCBFA221C23D100EB1EA6 /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949FCBF8221C23D100EB1EA6 /* Debug */,
+				949FCBF9221C23D100EB1EA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
